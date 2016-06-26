@@ -34,6 +34,6 @@
 #error "Interrupts are unknown for this board, please add to this code"
 #endif
 #if CORE_NUM_INTERRUPT <= 0
-#error "Counter requires interrupt pins, but this board does not have any :("
+#error "Encoder requires interrupt pins, but this board does not have any :("
 #endif
 
